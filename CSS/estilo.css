@@ -51,10 +51,10 @@ header{
 }
 
 .container_banner{
-    background-image: url(../assets_/fundo-BANNER.png);
+    background-image: url(../assets_/imagem_banner2.png);
     background-repeat: no-repeat;
     margin-top: 80px;
-    height: 800px;
+    height: 600px;
 }
 
 .conteudo_banner{
@@ -87,7 +87,79 @@ header{
 .conteudo_banner a{
     text-transform: uppercase;
     font-family: 'Titillium Web', sans-serif;
-    font-weight: bolder;
+    font-weight: 700;
     text-decoration: none;
+    width: 300px;
+    height: 70px;
+    background-color: #270F6A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 27%;
+    color: white;
+    margin-top: 10px;
 
 }
+
+.nav_parceiros{
+    background-color: black;
+    height: 160px;
+}
+
+.link_parceiros{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.informacoes{
+    background-image: url(../assets_/fundo-informações.png);
+    height: 673px;
+}
+
+.figura_informacoes{
+    background-color: black;
+    clip-path: polygon(0 15%, 100% 4%, 100% 85%, 0 97%);
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.texto_informativo{
+    display: flex;
+    height: 350px;
+    /* width: 300px; */
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 55px;
+}
+
+.texto_informativo h2{
+    color: white;
+    font-size: 2em;
+    text-transform: capitalize;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+
+.texto_informativo p{
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
+    width: 500px;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.figura_informacoes img{
+    position: relative;
+    width: 60%;
+    height: 75%;
+    margin-left: 5%;
+}
+
