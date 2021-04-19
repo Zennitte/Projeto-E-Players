@@ -377,14 +377,14 @@ footer{
     text-transform: capitalize;
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
-    margin-bottom: 20px;
-    margin-top: 30px;   
+    margin-bottom: 10px;
+    margin-top: 20px;   
 }
 
 .input_cadastrar{
     display: flex;
     height: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     margin-top: 20px;
 }
 
