@@ -1,18 +1,17 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     width: 1200px;
     margin: 0 auto;
 }
 
-header{
+header {
     background-color: #1E1C21;
     height: 80px;
     position: fixed;
@@ -21,18 +20,18 @@ header{
     top: 0;
 }
 
-.container_header{
+.container_header {
     display: flex;
     /* justify-content: flex-start; */
     height: 100%;
     align-items: center;
 }
 
-.logo img{
+.logo img {
     width: 300px;
 }
 
-.nav_header{
+.nav_header {
     display: flex;
     justify-content: space-between;
     width: 861px;
@@ -41,7 +40,7 @@ header{
     margin-left: 15%;
 }
 
-.nav_header a{
+.nav_header a {
     font-size: 1.2em;
     font-weight: 600;
     color: white;
@@ -50,14 +49,14 @@ header{
     text-decoration: none;
 }
 
-.container_banner{
+.container_banner {
     background-image: url(../assets_/imagem_banner2.png);
     background-repeat: no-repeat;
     margin-top: 80px;
     height: 600px;
 }
 
-.conteudo_banner{
+.conteudo_banner {
     display: flex;
     flex-direction: column;
     color: white;
@@ -68,23 +67,23 @@ header{
     width: 600px;
 }
 
-.conteudo_banner h1{
+.conteudo_banner h1 {
     text-transform: uppercase;
     font-family: 'Titillium Web', sans-serif;
     font-weight: bolder;
     font-size: 3.7em;
-    padding-bottom: 30px;   
+    padding-bottom: 30px;
 }
 
-.conteudo_banner span{
+.conteudo_banner span {
     text-transform: uppercase;
     font-family: 'Titillium Web', sans-serif;
-    font-weight: bolder;
+    font-weight: 400;
     font-size: 1.5em;
     padding-bottom: 30px;
 }
 
-.conteudo_banner a{
+.conteudo_banner a {
     text-transform: uppercase;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
@@ -99,27 +98,28 @@ header{
     margin-left: 27%;
     color: white;
     margin-top: 10px;
+    font-size: 1.5em;
 
 }
 
-.nav_parceiros{
+.nav_parceiros {
     background-color: black;
     height: 160px;
 }
 
-.link_parceiros{
+.link_parceiros {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
 
-.informacoes{
+.informacoes {
     background-image: url(../assets_/fundo-informações.png);
     height: 673px;
 }
 
-.figura_informacoes{
+.figura_informacoes {
     background-color: black;
     clip-path: polygon(0 15%, 100% 4%, 100% 85%, 0 97%);
     height: 100%;
@@ -128,7 +128,7 @@ header{
     align-items: center;
 }
 
-.texto_informativo{
+.texto_informativo {
     display: flex;
     height: 350px;
     /* width: 300px; */
@@ -137,7 +137,7 @@ header{
     margin-top: 55px;
 }
 
-.texto_informativo h2{
+.texto_informativo h2 {
     color: white;
     font-size: 2em;
     text-transform: capitalize;
@@ -146,7 +146,7 @@ header{
     text-align: left;
 }
 
-.texto_informativo p{
+.texto_informativo p {
     color: white;
     font-size: 1.3em;
     font-family: 'Titillium Web', sans-serif;
@@ -156,10 +156,270 @@ header{
     text-align: left;
 }
 
-.figura_informacoes img{
+.figura_informacoes img {
     position: relative;
     width: 60%;
     height: 75%;
     margin-left: 5%;
 }
 
+.horario_jogos {
+    background-color: black;
+    height: 160px;
+}
+
+.conteudo_jogos {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* justify-content: space-evenly; */
+
+}
+
+.jogos_andamento_proximos {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.jogos_andamento_proximos h2 {
+    color: white;
+    font-size: 2em;
+    text-transform: capitalize;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    width: 5%;
+}
+
+.jogos_andamento_proximos img {
+    height: 60px;
+    margin-top: 15px;
+}
+
+.jogos_andamento_proximos span {
+    color: white;
+    font-size: 2.5em;
+    text-transform: capitalize;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.linha_divisoria {
+    height: 90px;
+    border-right: 2px solid white;
+}
+
+.noticias_horarios {
+    background-color: #1F1F1F;
+    height: 1315px;
+}
+
+.noticias_horarios_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticias h2 {
+    color: white;
+    font-size: 2em;
+    text-transform: capitalize;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    height: 55px;
+}
+
+.posicionador_noticias {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.noticias img {
+    height: 167px;
+    width: 231px;
+}
+
+.noticias p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    height: 309px;
+    width: 231px;
+    color: white;
+    background: linear-gradient(to bottom, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 36%, #2b2b2b 47%, #000000 62%, #111111 81%, #1c1c1c 91%, #131313 100%);
+    margin-bottom: 40px;
+}
+
+.horarios h2 {
+    color: white;
+    font-size: 2em;
+    text-transform: capitalize;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    height: 55px;
+}
+
+.box_horarios {
+    background: linear-gradient(to bottom, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 36%, #2b2b2b 47%, #000000 62%, #111111 81%, #1c1c1c 91%, #131313 100%);
+    margin-top: 50px;
+    height: 1000px;
+    width: 284px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box_horarios span{
+    color: white;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    height: 421px;
+}
+
+.container_footer{
+    display: flex;
+    /* align-items: center; */
+    height: 100%;
+    justify-content: space-between;
+}
+
+.container_footer a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.nav_links_uteis{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;    
+}
+
+.lista_footer li{
+    list-style: circle solid white;
+    color: white;
+}
+
+.nav_links_uteis span{
+    color: white;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    
+}
+
+.nav_links_uteis a {
+    text-transform: capitalize;
+    line-height: 35px;
+    font-size: 1.2em
+    
+}
+
+.nav_paginas{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+}
+
+.nav_paginas span{
+    color: white;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+.nav_paginas a{
+    text-transform: capitalize;
+    line-height: 35px;
+    font-size: 1.2em
+}
+
+.logo_footer{
+    display: flex;
+    height: 100%;
+}
+
+.logo_footer img{
+    align-items: center;
+    display: flex;
+}
+
+.informacoes_adicionais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+}
+
+.informacoes_adicionais span{
+    color: white;
+    font-size: 1em;
+    text-transform: capitalize;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;   
+}
+
+.input_cadastrar{
+    display: flex;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.input_cadastrar input{
+    height: 25px;
+}
+
+.input_cadastrar a{
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #270F6A;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+}
+
+.nav_redes_sociais{
+    display: flex;
+}
+
+.nav_redes_sociais span{
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    text-transform: none;
+    align-items: center;
+}
+
+.nav_redes_sociais img{
+    height: 55px;
+    align-items: center;
+    padding-left: 15px ;
+    padding-top: 20px;
+}
