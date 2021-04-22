@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Times</title>
-    <link rel="stylesheet" href="CSS/cadastro_times_estilo.css">
+    <link rel="stylesheet" href="CSS/estilo.css">
 </head>
 
 <body>
@@ -22,17 +22,19 @@
         <section class="area_cadastro_times">
             <div class="cadastrar_times">
                 <div class="container_cadastrar_times">
-                    <span>nome da equipe</span>
-                    <input type="text">
-                    <span>escolher emblema</span>
-                    <input type="image" src="img_submit.gif" alt="escolher imagem">
-                    <a href="#">inscreva-se</a>
+                    <form class="form_times" action="post">
+                        <label for="nome_da_equipe">nome da equipe</label>
+                        <input name="nome_da_equipe" class="equipe_texto" type="text">
+                        <label for="escolher_emblema">escolher emblema</label>
+                        <input name="escolher_emblema" class="escolher_imagem" type="file" src="img_submit.gif" alt="escolher imagem">
+                        <button>cadastrar</button>
+                    </form>
                 </div>
             </div>
             <div class="times_cadastrados">
                 <h2>lista de times</h2>
-                <table>
-                    <tr>
+                <table class="tabela_times">
+                    <tr class="tabela_header">
                         <th>nome da equipe</th>
                         <th>emblema</th>
                     </tr>
@@ -51,7 +53,7 @@
     </main>
 
     <footer>
-        <iframe src="footer.html" frameborder="0" style="width: 100%; height: 421px;"></iframe>
+        <iframe src="footer.html" frameborder="0" width="100%" height="421px" style="border: none;"></iframe>
     </footer>
 
 </body>

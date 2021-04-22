@@ -111,6 +111,7 @@ header {
     color: white;
     margin-top: 10px;
     font-size: 1.5em;
+    margin-bottom: 15px;
 
 }
 
@@ -407,7 +408,7 @@ footer{
     height: 25px;
 }
 
-.input_cadastrar a{
+.input_cadastrar button{
     text-transform: uppercase;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
@@ -440,4 +441,198 @@ footer{
     padding-top: 25px;
 }
 
-@media (max-width:768px)
+
+
+/* Página cadastro de times */
+
+
+
+/* header */
+
+header {
+    height: 80px;
+}
+
+.header_fixo {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+}
+
+/* main */
+
+.banner_cadastro_times {
+    background-image: url(../assets_/fundo-informações.png);
+    height: 237px;
+    margin-top: 80px;
+}
+
+.banner_cadastro_times h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.area_cadastro_times {
+    background-color: #1E1C21;
+    height: 779px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastrar_times{
+    background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
+    height: 340px;
+    width: 770px;
+    margin-top: 56px;
+}
+
+.container_cadastrar_times{
+    display: flex;
+    flex-direction: column;
+    width: 693px;
+    height: 270px;
+    padding-top: 3%;
+}
+
+.form_times{
+    display: flex;
+    flex-direction: column;
+    width: 693px;
+    height: 270px;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.container_cadastrar_times label{
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: capitalize;
+    padding-top: 25px;
+}
+
+.container_cadastrar_times input{
+    background: #ABABAB;
+}
+
+.equipe_texto{
+    height: 25px;
+}
+
+.escolher_imagem{
+    width: 125px;
+}
+
+.container_cadastrar_times button{
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    width: 300px;
+    height: 50px;
+    background-color: #270F6A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 27%;
+    color: white;
+    margin-top: 25px;
+    font-size: 1.1em;
+}
+
+.times_cadastrados{
+    margin-top: 59px;
+}
+
+.times_cadastrados h2{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: center;
+}
+
+.tabela_times{
+    width: 770px;
+    height: 175px;
+    border: solid white;
+    border-radius: 1px;
+    margin-top: 28px;
+}
+
+.tabela_header{
+    background-color: black;
+}
+
+.tabela_times th{
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: capitalize;   
+    border-bottom: solid white;
+    border-radius: 1px;
+}
+
+.tabela_times td{
+    color: white;
+    font-size: 1em;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* footer */
+
+.footer {
+    height: 421px;
+}
+
+
+
+/* Página cadastro de jogador */
+
+
+
+/* main */
+
+
+.banner_cadastro_jogador{
+    background-image: url(../assets_/imagem_banner2.png);
+    height: 237px;
+    margin-top: 80px;
+}
+
+.banner_cadastro_jogador h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.area_cadastro_jogador{
+    background-color: #1E1C21;
+    height: 1110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastrar_jogador{
+    background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
+    height: 629px;
+    width: 770px;
+    margin-top: 56px;
+}
+
