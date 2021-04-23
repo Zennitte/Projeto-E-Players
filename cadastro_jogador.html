@@ -10,25 +10,25 @@
 <body>
     
     <header class="header_fixo">
-        <iframe src="header.html" frameborder="0" style="width: 100%; height: 100%;"></iframe>
+        <iframe class="iframe_header" scrolling="no" src="header.html" frameborder="0" style="width: 100%; height: 100%;"></iframe>
     </header>
 
-    <main>
+    <main onclick="fecharMenu()">
         <section class="banner_cadastro_jogador">
             <h1>cadastro de jogador</h1>
         </section>
         <section class="area_cadastro_jogador">
             <div class="cadastrar_jogador">
                 <div class="container_cadastrar_jogador">
-                    <form action="post">
-                        <label>nome do jogador</label>
-                        <input name="nome do jogador" type="text">
-                        <label>email</label>
+                    <form class="form_jogadores" action="post">
+                        <label for="nome_do_jogador">nome do jogador</label>
+                        <input name="nome_do_jogador" type="text">
+                        <label for="email">email</label>
                         <input name="email" type="text">
-                        <label>senha</label>
+                        <label for="senha">senha</label>
                         <input name="senha" type="text">
-                        <label>equipe</label>
-                        <input name="equipe" type="select">
+                        <label for="equipe">equipe</label>
+                        <select name="equipe" id="selecionar_imagem"></select>                       
                         <button>cadastrar</button>
                     </form>
                 </div>
